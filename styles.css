@@ -15,6 +15,7 @@ h1 {
 h2 {
   font-size: 2rem;
   color: #ffffff;
+  padding-bottom: 2vh;
 }
 
 .header {
@@ -38,7 +39,6 @@ h2 {
   border: none;
   border-radius: 8px;
   color: #ffffff;
-  /*background-color: #3d1245;*/
 }
 
 .btn-temp {
@@ -62,10 +62,6 @@ h2 {
   background-color: #204692;
 }
 
-/*.header button:hover {
-  background-color: #71247b;
-}*/
-
 .content {
   padding: 2vh;
   background-image: linear-gradient(
@@ -79,14 +75,54 @@ h2 {
 }
 
 .content-container {
+  padding: 4rem 0;
+  font-size: 1.2rem;
+  font-weight: bolder;
   background-color: #ffffff;
-  height: 50vh;
-  width: 50vw;
+  /*height: 50vh;*/
+  width: 40rem;
   border-radius: 12px;
   margin: 0 auto;
 }
 
-@media (max-width: 660px) {
+.conv_units {
+  padding: 0 0 3rem 0;
+}
+
+.conv_units select {
+  font-size: 1.2rem;
+  width: 12em;
+  padding: 0.5rem;
+  margin: 0 1rem;
+}
+
+#input-value {
+  font-size: 1.2rem;
+  text-align: center;
+  width: 30rem;
+  padding: 0.5rem;
+  margin: 0 1rem;
+}
+
+.submit-input {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 1.5rem;
+  width: 10em;
+  cursor: pointer;
+  margin: 2rem 0.5rem;
+  padding: 0.6em 0;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #251c59;
+}
+
+.conv-value {
+  font-size: 2rem;
+  color: #132e65;
+}
+
+@media (max-width: 680px) {
   .btn-container button {
     display: block;
     margin: 0.5em auto;
@@ -94,5 +130,9 @@ h2 {
 
   .header {
     height: 35vh;
+  }
+
+  .content-container {
+    width: 75vw;
   }
 }
