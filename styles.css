@@ -16,11 +16,10 @@ h1 {
   padding: 3vh 0;
   background-color: #faf7ee;
   color: #1d4b40;
-  height: 20vh;
 }
 
-.btn-contener {
-  margin: 0.5em 0;
+.btn-container {
+  margin: 0.5em 0 2em 0;
 }
 
 .header button {
@@ -32,36 +31,22 @@ h1 {
   padding: 0.6em 0;
   border: none;
   border-radius: 8px;
+  color: #ffffff;
+  background-color: #5db390;
 }
 
-.btn-temp {
-  color: #692d11;
-  background-color: #f4ab889e;
-}
-
-.btn-temp:hover {
-  background-color: #f4ab88;
-}
-
-.btn-length {
-  color: #714f0c;
-  background-color: #f6cc768c;
-}
-
-.btn-length:hover {
-  background-color: #f6cc76;
-}
-
-.btn-weight {
-  color: #4c6e12;
-  background-color: #b8d78291;
-}
-
-.btn-weight:hover {
-  background-color: #b8d782;
+.header button:hover {
+  background-color: #6bd2a9;
 }
 
 .content {
   background-color: #1d4b40;
   height: 74vh;
+}
+
+@media (max-width: 660px) {
+  .btn-container button {
+    display: block;
+    margin: 0.5em auto;
+  }
 }
