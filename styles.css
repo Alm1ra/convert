@@ -14,8 +14,8 @@ h1 {
 
 .header {
   padding: 3vh 0;
-  background-color: #faf7ee;
-  color: #1d4b40;
+  background-color: #e5e5e5;
+  color: #27052b;
 }
 
 .btn-container {
@@ -32,15 +32,22 @@ h1 {
   border: none;
   border-radius: 8px;
   color: #ffffff;
-  background-color: #5db390;
+  background-color: #3d1245;
 }
 
 .header button:hover {
-  background-color: #6bd2a9;
+  background-color: #71247b;
 }
 
 .content {
-  background-color: #1d4b40;
+  padding: 3rem;
+  background-image: linear-gradient(
+    #27052b,
+    #240d35,
+    #1d1137,
+    #13123b,
+    #061b3f
+  );
   height: 74vh;
 }
 
