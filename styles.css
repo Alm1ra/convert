@@ -8,14 +8,20 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3.3rem;
   margin: 0.5em 0;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #ffffff;
 }
 
 .header {
   padding: 3vh 0;
   background-color: #e5e5e5;
   color: #27052b;
+  height: 24vh;
 }
 
 .btn-container {
@@ -32,15 +38,36 @@ h1 {
   border: none;
   border-radius: 8px;
   color: #ffffff;
-  background-color: #3d1245;
+  /*background-color: #3d1245;*/
 }
 
-.header button:hover {
+.btn-temp {
+  background-color: #3d1245;
+}
+.btn-temp:hover {
   background-color: #71247b;
 }
 
+.btn-length {
+  background-color: #251c59;
+}
+.btn-length:hover {
+  background-color: #443696;
+}
+
+.btn-weight {
+  background-color: #132e65;
+}
+.btn-weight:hover {
+  background-color: #204692;
+}
+
+/*.header button:hover {
+  background-color: #71247b;
+}*/
+
 .content {
-  padding: 3rem;
+  padding: 2vh;
   background-image: linear-gradient(
     #27052b,
     #240d35,
@@ -48,12 +75,24 @@ h1 {
     #13123b,
     #061b3f
   );
-  height: 74vh;
+  height: 66vh;
+}
+
+.content-container {
+  background-color: #ffffff;
+  height: 50vh;
+  width: 50vw;
+  border-radius: 12px;
+  margin: 0 auto;
 }
 
 @media (max-width: 660px) {
   .btn-container button {
     display: block;
     margin: 0.5em auto;
+  }
+
+  .header {
+    height: 35vh;
   }
 }
