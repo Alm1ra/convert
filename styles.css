@@ -79,7 +79,6 @@ h2 {
   font-size: 1.2rem;
   font-weight: bolder;
   background-color: #ffffff;
-  /*height: 50vh;*/
   width: 40rem;
   border-radius: 12px;
   margin: 0 auto;
@@ -134,5 +133,18 @@ h2 {
 
   .content-container {
     width: 75vw;
+  }
+
+  .conv_units {
+    padding: 0 0 2rem 0;
+  }
+
+  .conv_units select {
+    display: block;
+    margin: 0.5rem auto;
+  }
+
+  #input-value {
+    width: 55vw;
   }
 }
