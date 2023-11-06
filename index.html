@@ -8,41 +8,43 @@
     <title>Converter</title>
   </head>
   <body>
-    <div class="header">
-      <h1>CONVERTER</h1>
-      <div class="btn-container">
-        <button class="btn-temp" type="button">Temperature</button>
-        <button class="btn-length" type="button">Length</button>
-        <button class="btn-weight" type="button">Weight</button>
-      </div>
-    </div>
-    <div class="content">
-      <h2 class="content-header">TEMPERATURE</h2>
-      <div class="content-container">
-        <form class="conv_units">
-          <select id="conv_from">
-            <option value="celsius">Celsius (°C)</option>
-            <option value="fahrenheit">Fahrenheit (°F)</option>
-            <option value="kelvin">Kelvin (K)</option>
-            <option value="rankine">Rankine (°R)</option>
-          </select>
-          to
-          <select id="conv_to">
-            <option value="celsius">Celsius (°C)</option>
-            <option value="fahrenheit">Fahrenheit (°F)</option>
-            <option value="kelvin">Kelvin (K)</option>
-            <option value="rankine">Rankine (°R)</option>
-          </select>
-        </form>
-        <input
-          type="text"
-          id="input-value"
-          placeholder="Enter the value you want to convert"
-        />
-        <div>
-          <button class="submit-input">Convert</button>
+    <div class="page-wrapper">
+      <div class="header">
+        <h1>CONVERTER</h1>
+        <div class="btn-container">
+          <button class="btn-temp" type="button">Temperature</button>
+          <button class="btn-length" type="button">Length</button>
+          <button class="btn-weight" type="button">Weight</button>
         </div>
-        <div class="conv-value">Result: 100°C</div>
+      </div>
+      <div class="content">
+        <h2 class="content-header">TEMPERATURE</h2>
+        <div class="content-container">
+          <form class="conv_units">
+            <select id="conv_from">
+              <option value="celsius">Celsius (°C)</option>
+              <option value="fahrenheit">Fahrenheit (°F)</option>
+              <option value="kelvin">Kelvin (K)</option>
+              <option value="rankine">Rankine (°R)</option>
+            </select>
+            to
+            <select id="conv_to">
+              <option value="celsius">Celsius (°C)</option>
+              <option value="fahrenheit">Fahrenheit (°F)</option>
+              <option value="kelvin">Kelvin (K)</option>
+              <option value="rankine">Rankine (°R)</option>
+            </select>
+          </form>
+          <input
+            type="text"
+            id="input-value"
+            placeholder="Enter the value you want to convert"
+          />
+          <div>
+            <button class="submit-input">Convert</button>
+          </div>
+          <div class="conv-value">Result: 100°C</div>
+        </div>
       </div>
     </div>
   </body>
