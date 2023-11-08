@@ -95,11 +95,11 @@ h2 {
   margin: 0 auto;
 }
 
-.conv_units {
+.conv-units {
   padding: 0 0 3rem 0;
 }
 
-.conv_units select {
+.conv-units select {
   font-size: 1.2rem;
   width: 12em;
   padding: 0.5rem;
@@ -150,11 +150,11 @@ h2 {
     width: 75vw;
   }
 
-  .conv_units {
+  .conv-units {
     padding: 0 0 2rem 0;
   }
 
-  .conv_units select {
+  .conv-units select {
     width: 55vw;
     display: block;
     margin: 0.5rem auto;
